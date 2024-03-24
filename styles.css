@@ -718,7 +718,7 @@ ul > li { line-height: 1.5em; }
     display: block;
     width: 100%;
     position: relative;
-    background: #90d84d;
+    background: #7ac237;
     padding: 150px 25px 50px 25px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -732,7 +732,7 @@ ul > li { line-height: 1.5em; }
     width: 90%;
     margin: auto;
     padding: 80px 100px;
-    background: #ebb249;
+    background: #e4af4d;
     border-radius: 15px;
 }
 .start-learning {
@@ -815,7 +815,7 @@ ul > li { line-height: 1.5em; }
 }
 
 /** estilos para celular**/
-@media  screen and (max-width: 668px){
+@media  screen and (max-width: 768px){
 
   body{
     max-width: 768px;
