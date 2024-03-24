@@ -836,7 +836,7 @@ ul > li { line-height: 1.5em; }
 }
 
 /** estilos para celular**/
-@media  screen and (max-width: 768px){
+@media  screen and (max-width: 668px){
 
   body{
     max-width: 768px;
@@ -885,7 +885,7 @@ ul > li { line-height: 1.5em; }
     .pic{
       height: auto;
       width: 350px;
-      padding-top: 135%;
+      padding-top: 195%;
       position: absolute;
     }
     .about{
