@@ -78,29 +78,8 @@ header .text-content .job{
  margin: 5px 0;
  margin-top: -4px;
  display: flex;
+ font-weight: 500;
 }
-.text-content .typing-text{
-  margin-left: 10px;
-  overflow: hidden;
-  white-space: nowrap;
-  border-right: 4px solid #da731f;
-  animation: typing 5s steps(15) infinite;
-}
-@keyframes typing{
-  0%{
-    width: 0ch;
-  }
-  50%{
-    width: 19ch;
-  }
-  100%{
-    width: 0ch;
-  }
-}
-.text-content .job .one{
-  color: #da731f;
-}
-
 
 button {
   position: relative;
@@ -439,7 +418,7 @@ input[type="checkbox"]{
 }
 .ccontainer .bbox{
   width: calc(33% - 10px);
-  background: #ffefdb;
+  background: #fffbf5;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -462,7 +441,7 @@ input[type="checkbox"]{
   width: 100%;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #fff;
+  border: 2px solid #fffafa;
 }
 .bbox .bno{
   margin-left: -8px;
@@ -739,7 +718,7 @@ ul > li { line-height: 1.5em; }
     display: block;
     width: 100%;
     position: relative;
-    background: #7ac237;
+    background: #90d84d;
     padding: 150px 25px 50px 25px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -753,7 +732,7 @@ ul > li { line-height: 1.5em; }
     width: 90%;
     margin: auto;
     padding: 80px 100px;
-    background: #e4af4d;
+    background: #ebb249;
     border-radius: 15px;
 }
 .start-learning {
@@ -856,10 +835,7 @@ ul > li { line-height: 1.5em; }
     }
 
     header .text-content .job{
-      font-size: 86%;
-      margin: 5px 0;
-      margin-top: -15px;
-      display: flex;
+      max-width: 90%;
     }
 
     button {
@@ -875,6 +851,7 @@ ul > li { line-height: 1.5em; }
     .content .girl img{
       max-height: 65%;
       right: 30px;
+      padding-top: 8%;
     }
 
     .about-us{
@@ -885,7 +862,7 @@ ul > li { line-height: 1.5em; }
     .pic{
       height: auto;
       width: 350px;
-      padding-top: 195%;
+      padding-top: 235%;
       position: absolute;
     }
     .about{
@@ -901,6 +878,7 @@ ul > li { line-height: 1.5em; }
       font-weight: 600;
       margin-bottom: 10px;
       color: #5e3a19;
+    
     }
     .ttext h5{
       font-size: 15px;
