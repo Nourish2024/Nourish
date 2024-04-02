@@ -194,7 +194,7 @@ button:active {
   padding: 0;
   transition: .1s ease-in;
 }
-.inner-part .img{
+.inner-part .immg{
   height: 260px;
   width: 260px;
   flex-shrink: 0;
@@ -202,14 +202,14 @@ button:active {
   border-radius: 20px;
   box-shadow: 2px 3px 15px rgba(252,56,56,.1);
 }
-#imgTap:checked ~ .inner-part .img{
+#imgTap:checked ~ .inner-part .immg{
   height: 370px;
   width: 850px;
   z-index: 99;
   margin-top: 10px;
   transition: .3s .2s ease-in;
 }
-.img img{
+.immg img{
   height: 100%;
   width: 100%;
   object-fit: cover;
