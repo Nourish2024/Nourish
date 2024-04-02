@@ -230,7 +230,7 @@ button:active {
   opacity: 0;
   transition: .6s;
 }
-#imgTap:checked ~ .inner-part .co0ntent{
+#imgTap:checked ~ .inner-part .coontent{
   display: none;
 }
 #tap-1:checked ~ .inner-part .content-1,
