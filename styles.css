@@ -249,14 +249,14 @@ button:active {
   font-weight: 500
 }
 .coontent .tiitle{
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 700;
   color: #301103;
   margin-bottom: 20px;
 }
 .coontent .teext{
   color: #290e02;
-  font-size: 19px;
+  font-size: 15px;
   margin-bottom: 30px;
   line-height: 1.5em;
   text-align: justify;
