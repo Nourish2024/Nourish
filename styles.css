@@ -762,7 +762,7 @@ ul > li { line-height: 1.5em; }
     .content .girl img{
       max-height: 65%;
       right: 30px;
-      padding-top: 8%;
+      padding-top: 13%;
     }
 
     .about-us{
@@ -773,7 +773,8 @@ ul > li { line-height: 1.5em; }
     .pic{
       height: auto;
       width: 350px;
-      padding-top: 235%;
+      padding-top: 285%;
+      padding-bottom: 20%;
       position: absolute;
     }
     .about{
@@ -843,13 +844,14 @@ ul > li { line-height: 1.5em; }
     }
 
     .auxilio {
-      width: 90%; /* Reducir el ancho del cuadro para dispositivos móviles */
+      max-width: 90%; /* Reducir el ancho del cuadro para dispositivos móviles */
       padding: 10px; /* Reducir el espacio interior del cuadro */
-      padding-bottom: 30%;
+      padding-top:40%;
+      padding-bottom: 10%;
      
     }
     .blog-card{
-      width: 525px;
+      max-width: 90%;
       height: 565px;
     }
 
@@ -861,17 +863,17 @@ ul > li { line-height: 1.5em; }
 
 
     .content-1 {
-      width: 90%; /* Reducir el ancho del cuadro para dispositivos móviles */
+      max-width: 90%; /* Reducir el ancho del cuadro para dispositivos móviles */
       padding: 10px; /* Reducir el espacio interior del cuadro */
     }
 
     .content-2 {
-      width: 90%; /* Reducir el ancho del cuadro para dispositivos móviles */
+      max-width: 90%; /* Reducir el ancho del cuadro para dispositivos móviles */
       padding: 10px; /* Reducir el espacio interior del cuadro */
     }
 
     .content-3 {
-      width: 90%; /* Reducir el ancho del cuadro para dispositivos móviles */
+      max-width: 90%; /* Reducir el ancho del cuadro para dispositivos móviles */
       padding: 10px; /* Reducir el espacio interior del cuadro */
     }
 
@@ -881,8 +883,8 @@ ul > li { line-height: 1.5em; }
     }
     
     .demo iframe {
-      width: 520px;
-      height: 400px;
+      max-width: 520px;
+      height: auto;
   }
 
   }
