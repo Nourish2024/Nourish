@@ -161,7 +161,7 @@ button:active {
   margin-top: 3px;
 }
 
-/**.boxx{
+/.boxx{
   left: 12%;
   position: absolute;
   height: 370px;
@@ -170,7 +170,7 @@ button:active {
   margin: auto;
   border-radius: 25px;
   box-shadow: 0px 10px 50px rgba(252,56,56,.3);
-}**/
+}/
 
 .blog-card{
   position: absolute;
@@ -841,5 +841,48 @@ ul > li { line-height: 1.5em; }
       margin-top: 30px;
       grid-template-columns: repeat(3, 1fr);
     }
+
+    .auxilio {
+      width: 90%; /* Reducir el ancho del cuadro para dispositivos móviles */
+      padding: 10px; /* Reducir el espacio interior del cuadro */
+      padding-bottom: 30%;
+     
+    }
+    .blog-card{
+      width: 525px;
+      height: 565px;
+    }
+
+   
+    .inner-part{
+      height: auto;
+
+    }
+
+
+    .content-1 {
+      width: 90%; /* Reducir el ancho del cuadro para dispositivos móviles */
+      padding: 10px; /* Reducir el espacio interior del cuadro */
+    }
+
+    .content-2 {
+      width: 90%; /* Reducir el ancho del cuadro para dispositivos móviles */
+      padding: 10px; /* Reducir el espacio interior del cuadro */
+    }
+
+    .content-3 {
+      width: 90%; /* Reducir el ancho del cuadro para dispositivos móviles */
+      padding: 10px; /* Reducir el espacio interior del cuadro */
+    }
+
+    .ccontainer{
+      margin-top: 350px;
+
+    }
+    
+    .demo iframe {
+      width: 520px;
+      height: 400px;
+  }
 
   }
