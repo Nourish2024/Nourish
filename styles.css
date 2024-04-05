@@ -844,6 +844,8 @@ ul > li { line-height: 1.5em; }
     }
 
     .auxilio {
+      visibility: hidden;
+
       max-width: 30%; /* Reducir el ancho del cuadro para dispositivos móviles */
       padding: 10px; /* Reducir el espacio interior del cuadro */
       padding-top:40%;
