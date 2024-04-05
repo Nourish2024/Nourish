@@ -844,7 +844,7 @@ ul > li { line-height: 1.5em; }
     }
 
     .auxilio {
-      max-width: 90%; /* Reducir el ancho del cuadro para dispositivos móviles */
+      max-width: 30%; /* Reducir el ancho del cuadro para dispositivos móviles */
       padding: 10px; /* Reducir el espacio interior del cuadro */
       padding-top:40%;
       padding-bottom: 10%;
@@ -879,7 +879,7 @@ ul > li { line-height: 1.5em; }
 
     .ccontainer{
       margin-top: 350px;
-
+      padding-bottom: 0px;
     }
     
     .demo iframe {
